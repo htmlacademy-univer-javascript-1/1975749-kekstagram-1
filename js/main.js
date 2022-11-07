@@ -1,7 +1,9 @@
+import {createPhotos} from './data.js';
+import {renderUserPhotos} from './pictures.js';
+import {renderUploadForm} from './form.js';
 
-import {createInfoPost} from './data.js'
 
+createPhotos();
+renderUserPhotos();
+renderUploadForm();
 
-const similarPosts = Array.from({length: 25}, createInfoPost);
-
-console.log(createInfoPost);
